@@ -1,0 +1,52 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native/build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.dylib
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project outputs
+results/
+logs/
+
+# Selective scan local build outputs
+selective_scan/build/
+selective_scan/*.egg-info/
+
+# Model/data binaries (keep structure, ignore heavy files by default)
+*.pth
+*.pt
+*.ckpt
+!pretrained_pth/**/*.pth
+
+# Uncomment if datasets are local and should stay untracked
+# datasets/
+# data/
