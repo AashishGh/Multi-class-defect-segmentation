@@ -5,7 +5,7 @@ from .resunetplusplus import ResunetPlusplus
 from .transrupnet_model import TransRUPNet
 from .pvtformer import PVTFormer
 # from .vmunet import VMUNet
-# from .vmunetv2 import VMUNetV2
+from .vmunetv2 import VMUNetV2
 from .rma_mamba_s import RMAMamba_S
 
 
@@ -18,6 +18,6 @@ models_dict= {
     "pvtformer": PVTFormer(),
     # "vmunet": VMUNet(num_classes=4),
     "rmamambas": RMAMamba_S(),
-    # "vmunetv2": VMUNetV2(num_classes=4)
+    "vmunetv2": VMUNetV2(num_classes=4)
 }
 
